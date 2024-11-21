@@ -46,11 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const frameCover = document.getElementById('frame-cover');
   const frame1 = document.getElementById('frame-1');
   const frame2 = document.getElementById('frame-2');
-  const frame3 = document.getElementById('frame-3');
+  const frame3 = document.getElementById('frame-4');
   const frame4 = document.getElementById('frame-4');
-  const frame5 = document.getElementById('frame-5');
-  const frame6 = document.getElementById('frame-6');
-  const frame7 = document.getElementById('frame-7');
+  const frame7 = document.getElementById('frame-6');
   const musicControl = document.getElementById('music-control');
   const backgroundMusic = document.getElementById('background-music');
 

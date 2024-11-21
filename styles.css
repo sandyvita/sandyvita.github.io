@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
+    background-color: #f6fcef;
   }
   
   .frame {
@@ -272,23 +273,37 @@ body, html {
     width: calc(100% - 10px);
   }
   
-  .frame-6 {
-    background-color: #fff5c9;
-    background-image: url('6.jpg');
-    color: rgb(255, 255, 255);
-    padding: 50px;
-  }
-  .ucapan-section {
-    margin-top: 20px;
-    color: rgb(8, 8, 8);
-  }
-  .ucapan {
-    background: rgb(255, 255, 255);
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 10px;
-    color: rgb(8, 8, 8);
-  }
+/* Frame 6 */
+.frame-6 {
+  background-color: #fff5c9;
+  background-image: url('6.jpg');
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frame-6 h2 {
+  margin-bottom: 30px; /* Menambahkan jarak bawah pada judul */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Mengatur jarak antar elemen form */
+}
+
+.ucapan-section {
+  margin-top: 20px;
+  color: rgb(8, 8, 8);
+}
+.ucapan {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+}
+
   .frame-7 {
     background-color: #fff5c9;
     background-image: url('7.jpg');
@@ -395,4 +410,119 @@ footer {
   justify-content: center;
   text-align: center;
   text-decoration: none;
+}
+
+
+
+.profile-card {
+  background-color: #b0bba4;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.profile-card img {
+  width: 100%;
+  height: auto;
+}
+.profile-card .content {
+  padding: 20px;
+}
+.profile-card .content h2 {
+  font-family: 'Dancing Script';
+  margin: 0;
+  font-size: 42px;
+  color: #ffffff;
+}
+.profile-card .content h3 {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+.profile-card .content p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 2px 0;
+}
+.profile-card .content .button {
+  background-color: #ffffff;
+  color: #b0bba4;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.profile-card2 {
+  background-color: #b0bba4;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  float: right;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+}
+.profile-card2 img {
+  width: 100%;
+  height: auto;
+}
+.profile-card2 .content {
+  padding: 20px;
+}
+.profile-card2 .content h2 {
+  font-family: 'Dancing Script';
+  margin: 0;
+  font-size: 42px;
+  color: #ffffff;
+}
+.profile-card2 .content h3 {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 5px 0;
+  font-size: 20px;
+  color: #ffffff;
+}
+.profile-card2 .content p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 2px 0;
+}
+.profile-card2 .content .button {
+  background-color: #ffffff;
+  color: #b0bba4;
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.gallery .large {
+  grid-column: span 2;
 }
