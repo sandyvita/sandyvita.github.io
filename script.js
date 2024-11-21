@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const frame1 = document.getElementById('frame-1');
   const frame2 = document.getElementById('frame-2');
   const frame3 = document.getElementById('frame-4');
-  const frame4 = document.getElementById('frame-4');
   const frame7 = document.getElementById('frame-6');
   const musicControl = document.getElementById('music-control');
   const backgroundMusic = document.getElementById('background-music');
@@ -57,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
       frame1.style.display = 'flex';
       frame2.style.display = 'flex';
       frame3.style.display = 'flex';
-      frame4.style.display = 'flex';
       frame7.style.display = 'flex';
 
       document.body.style.overflow = 'auto';
